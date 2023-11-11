@@ -11,26 +11,26 @@ html {
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #272829; /* Adjusted for better readability with maroon theme */
 }
 
-#particle-js
-{
-    height:100%;
-    background: #f00
+#particle-js {
+  height: 100%;
+  background: #500000; /* Aggie Maroon color */
 }
 
 a {
-  color: #149ddd;
+  color: #a0522d; /* A complementary color for maroon */
 }
 
-a:hover {
+/* a:hover {
   color: #37b3ed;
   text-decoration: none;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+  color: #500000
 }
 
 /*--------------------------------------------------------------
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #149ddd;
+  background: #800000;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #2eafec;
+  background: #500000;
   transition: background 0.2s ease-in-out;
 }
 
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #500000;
   overflow-y: auto;
 }
 
@@ -84,8 +84,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border-color: #9ecaed;
-  box-shadow: 0 0 10px #9ecaed; 
+  border-color: #7a5c5c;
+  box-shadow: 0 0 10px #7a5c5c; 
 }
 
 #header .profile h1 {
@@ -120,8 +120,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
-  color: #fff;
+  background: #ffffff;
+  color: #212431;
   text-decoration: none;
   border-color: #9ecaed;
   transition: all 0.7s ease;
@@ -171,6 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 .card-front,
 .card-back{
   background-size: cover;
+  background: #500000;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
   border-radius: 10px;
     background-position: center;
@@ -189,10 +190,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-back{
-  background: #149ddd;
-  background: -webkit-linear-gradient(180deg,  #149ddd 0%,#149ddd 100%);
-  background: -o-linear-gradient(180deg,  #149ddd 0%,#149ddd 100%);
-  background: linear-gradient(180deg,  #149ddd 0%,#149ddd 100%);
+  background: #500000;
+  background: -webkit-linear-gradient(180deg,  #500000 0%,#500000 100%);
+  background: -o-linear-gradient(180deg,  #500000 0%,#500000 100%);
+  background: linear-gradient(180deg,  #500000 0%,#500000 100%);
 }
 
 .card-front:after{
@@ -204,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     content: '';
     display: block;
-    background-color: #149ddd;
+    background-color: #500000;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
     border-radius: 10px;
@@ -341,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #6f7180;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -360,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: #ffffff;
 }
 
 /*--- Nav Menu for Blogs */
@@ -382,7 +383,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu1 a {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #fff;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -421,7 +422,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #149ddd;
+  color: #500000;
 }
 
 .mobile-nav-active {
@@ -528,7 +529,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #500000;
 }
 
 .section-title h2::after {
@@ -537,7 +538,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #700000;
   bottom: 0;
   left: 0;
 }
@@ -554,7 +555,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #500000;
 }
 
 .about-bg {
@@ -574,7 +575,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #149ddd;
+  color: #500000;
 }
 
 .about .content p:last-child {
@@ -614,7 +615,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #149ddd;
+  background-color: #700000;
 }
 
 /*--------------------------------------------------------------
@@ -625,13 +626,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #300000;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #500000;
   position: relative;
   text-align: justify;
 }
@@ -642,13 +643,13 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #300000;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #f7e0e0;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -676,14 +677,14 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #400000;
 }
 
 .resume .linkcolor{
   color: white;
 }
 .resume button[type="submit"] {
-  background: #149ddd;
+  background: #500000;
   border: 0;
   padding: 10px 24px;
   color: black;
@@ -692,7 +693,7 @@ section {
 }
 
 .resume button[type="submit"]:hover {
-  background: #37b3ed;
+  background: #700000;
 }
 
 /*--------------------------------------------------------------
@@ -701,7 +702,7 @@ section {
 .blog .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #400000;
 }
 
 .blog-bg {
@@ -721,7 +722,7 @@ section {
 .blog .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #149ddd;
+  color: #700000;
 }
 
 .blog .content p:last-child {
@@ -758,7 +759,7 @@ section {
 .blogg .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #149ddd;
+  color: #700000;
 }
 
 .blogg .content p:last-child {
@@ -788,7 +789,7 @@ section {
  }
 
  .blogg .backbutton button[type="submit"] {
-  background: #149ddd;
+  background: #500000;
   border: 0;
   padding: 10px 24px;
   color: black;
@@ -797,7 +798,7 @@ section {
 }
 
 .blogg .backbutton button[type="submit"]:hover {
-  background: #37b3ed;
+  background: #700000;
 }
 
 .blogg .backbutton .linkcolor{
@@ -1168,7 +1169,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   padding: 15px;
-  color: #f4f6fd;
+  background: #300000;
   font-size: 14px;
   position: fixed;
   left: 0;
