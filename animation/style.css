@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+}
+
+#aircraft {
+	animation: aircraff 1s ease-in-out infinite alternate;
+}
+
+@keyframes aircraff {
+	from {
+		transform: rotateX(-40deg);
+	}
+	to {
+		transform: rotateX(20deg);
+	}
+}
+
+#cloud {
+	animation: cloudd 1s ease-in-out infinite alternate;
+}
+
+@keyframes cloudd {
+	from {
+		transform: rotateY(0deg);
+	}
+	to {
+		transform: rotateY(20deg);
+	}
+}
